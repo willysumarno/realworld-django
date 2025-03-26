@@ -24,3 +24,14 @@ source .venv/bin/activate
 # Install the Python packages
 poetry install
 ```
+
+## Development Tools
+
+### Pre-Commit Hooks
+
+To ensure code standard, this project uses
+[pre-commit](https://pre-commit.com/) hooks. Install them using this command:
+
+```shell
+pre-commit install
+```
