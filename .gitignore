@@ -1,2 +1,8 @@
 # IDE settings
 .vscode/
+
+# Pyenv config
+.python-version
+
+# Virtual environment
+.venv/
