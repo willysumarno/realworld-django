@@ -23,6 +23,13 @@ source .venv/bin/activate
 
 # Install the Python packages
 poetry install
+
+# Set up the environment variables
+export DEBUG=1
+export SECRET_KEY=<PUT_YOUR_SECRET_KEY_HERE>
+
+# Run the application server
+python manage.py runserver
 ```
 
 ## Development Tools

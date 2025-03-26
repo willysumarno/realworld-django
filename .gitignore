@@ -4,5 +4,11 @@
 # Pyenv config
 .python-version
 
+# Python bytecode cache
+__pycache__/
+
+# SQLite database
+db.sqlite3
+
 # Virtual environment
 .venv/
